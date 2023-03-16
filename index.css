@@ -28,10 +28,17 @@ p {
 .navbar {
   color: var(--dark-grayish-violet);
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 .menu,
 .hamburger,
 .close {
   display: none;
+}
+.btn {
+  border: 3px solid var(--very-dark-violet);
+  padding: 10px 20px;
+  font-weight: 500;
+  color: var(--very-dark-violet);
 }
