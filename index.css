@@ -15,5 +15,23 @@
 }
 p {
   font-size: 16px;
-  color: var(--Very-Light-Gray);
+  font-weight: 400;
+  color: var(--dark-grayish-violet);
+}
+.header {
+  background-color: var(--Very-Light-Gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.navbar {
+  color: var(--dark-grayish-violet);
+  display: flex;
+  gap: 1rem;
+}
+.menu,
+.hamburger,
+.close {
+  display: none;
 }
