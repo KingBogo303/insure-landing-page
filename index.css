@@ -22,19 +22,20 @@ h1 {
   font-size: 5.8rem;
   font-family: serif;
   font-weight: 600;
-  line-height: 0.85;
+  line-height: 1;
   margin-bottom: 1.4rem;
   color: var(--Very-Light-Gray);
 }
 p {
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--dark-grayish-violet);
+  /* color: var(--dark-grayish-violet); */
   color: var(--Very-Light-Gray);
   line-height: 1.5;
   margin-bottom: 1.4rem;
 }
 a {
+  color: var(--dark-grayish-violet);
   display: inline-block;
 }
 .mobile {
