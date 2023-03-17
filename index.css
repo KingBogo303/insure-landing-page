@@ -48,6 +48,7 @@ a {
   padding: 10px 20px;
   background-color: transparent;
   font-weight: 500;
+  font-size: 14px;
   color: var(--very-dark-violet);
 }
 
@@ -61,9 +62,10 @@ a {
 }
 .navbar {
   color: var(--dark-grayish-violet);
+  font-size: 14px;
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.6rem;
 }
 .menu,
 .hamburger,
@@ -76,7 +78,7 @@ a {
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  gap: 5rem;
   padding: 50px 10%;
 }
 .hero::before {
