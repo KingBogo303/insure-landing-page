@@ -79,7 +79,7 @@ a {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
-  padding: 50px 10%;
+  padding: 80px 10%;
 }
 .hero::before {
   position: absolute;
@@ -91,7 +91,17 @@ a {
 }
 .textSec {
   position: relative;
-  margin-top: 10rem;
+  padding-top: 7rem;
+}
+.textSec::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.2rem;
+  border-radius: 2px;
+  width: 25%;
+  background-color: var(--Very-Light-Gray);
 }
 .hero-img {
   justify-self: center;
