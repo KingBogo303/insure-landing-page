@@ -18,6 +18,9 @@ p {
   font-weight: 400;
   color: var(--dark-grayish-violet);
 }
+a {
+  display: inline-block;
+}
 .header {
   background-color: var(--Very-Light-Gray);
   display: flex;
@@ -39,6 +42,7 @@ p {
 .btn {
   border: 3px solid var(--very-dark-violet);
   padding: 10px 20px;
+  background-color: transparent;
   font-weight: 500;
   color: var(--very-dark-violet);
 }
