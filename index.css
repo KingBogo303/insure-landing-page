@@ -72,16 +72,26 @@ a {
 
 /* hero styles */
 .hero {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   padding: 50px 10%;
 }
-
+.hero::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+  background-color: var(--Dark-Violet);
+}
 .hero-img {
   justify-self: center;
 }
 .hero-img img {
   width: 80%;
   margin-left: auto;
+}
+.hero .btn {
 }
