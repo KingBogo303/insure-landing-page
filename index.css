@@ -48,10 +48,11 @@ a {
 }
 .btn {
   border: 3px solid var(--very-dark-violet);
-  padding: 10px 20px;
+  padding: 10px 30px;
   background-color: transparent;
   font-weight: 500;
   font-size: 14px;
+  width: fit-content;
   color: var(--very-dark-violet);
 }
 
@@ -115,7 +116,8 @@ section {
   width: 80%;
   margin-left: auto;
 }
-.hero .btn {
+.hero .btn,
+.cta .btn {
   color: var(--Very-Light-Gray);
   border-color: var(--Very-Light-Gray);
 }
@@ -153,4 +155,23 @@ section {
 .box p {
   font-size: 16px;
   color: var(--dark-grayish-violet);
+}
+
+/* cta styles */
+.cta {
+  position: relative;
+  background-color: var(--Dark-Violet);
+  padding: 60px 100px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1.5fr 1fr;
+}
+.cta .cta-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.cta .btn {
+  justify-self: right;
 }
