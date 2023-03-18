@@ -115,3 +115,15 @@ a {
   color: var(--Very-Light-Gray);
   border-color: var(--Very-Light-Gray);
 }
+.hero-bg {
+  position: absolute;
+  height: 65%;
+}
+.hero-bg.one {
+  top: 0;
+  right: 0;
+}
+.hero-bg.two {
+  left: 0;
+  bottom: -15%;
+}
