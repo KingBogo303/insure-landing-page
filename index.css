@@ -212,3 +212,22 @@ footer {
   color: var(--dark-grayish-violet);
   margin-bottom: 2rem;
 }
+
+@media (max-width: 1180px) {
+  h1 {
+    font-size: 4.6rem;
+  }
+  .textSec {
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 1020px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+  .textSec {
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 912px) {
+}
