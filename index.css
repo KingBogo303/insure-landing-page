@@ -193,14 +193,22 @@ footer {
   padding-bottom: 3rem;
   border-bottom: 1px solid var(--dark-grayish-violet);
 }
+.footerLinks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5rem;
+}
 .socials {
   display: flex;
   gap: 1.5rem;
 }
-.links {
-  font-size: 1.6rem;
+.links li {
+  color: var(--very-dark-violet);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
   font-weight: 700;
 }
 .links .head {
   color: var(--dark-grayish-violet);
+  margin-bottom: 2rem;
 }
