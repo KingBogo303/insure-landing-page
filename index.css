@@ -197,3 +197,10 @@ footer {
   display: flex;
   gap: 1.5rem;
 }
+.links {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.links .head {
+  color: var(--dark-grayish-violet);
+}
