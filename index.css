@@ -175,3 +175,25 @@ section {
 .cta .btn {
   justify-self: right;
 }
+
+/* footer styles */
+footer {
+  position: relative;
+  padding: 50px 10%;
+  background-color: var(--Very-Light-Gray);
+}
+.footer-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.topFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--dark-grayish-violet);
+}
+.socials {
+  display: flex;
+  gap: 1.5rem;
+}
