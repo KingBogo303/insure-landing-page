@@ -76,6 +76,7 @@ a {
 .menu,
 .hamburger,
 .close {
+  transition: 0.35s;
   display: none;
 }
 section {

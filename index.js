@@ -10,3 +10,8 @@ hamburger.onclick = () => {
   hamburger.classList.add("hide");
   closeBtn.classList.add("show");
 };
+closeBtn.onclick = () => {
+  navbar.classList.remove("open");
+  hamburger.classList.remove("hide");
+  closeBtn.classList.remove("show");
+};
