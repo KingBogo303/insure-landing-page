@@ -15,3 +15,9 @@ closeBtn.onclick = () => {
   hamburger.classList.remove("hide");
   closeBtn.classList.remove("show");
 };
+
+window.onscroll = () => {
+  navbar.classList.remove("open");
+  hamburger.classList.remove("hide");
+  closeBtn.classList.remove("show", "hide");
+};
