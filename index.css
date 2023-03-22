@@ -326,7 +326,7 @@ footer {
     z-index: 1001;
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -1000px;
     height: calc(100vh - 5.04rem);
     width: 100%;
     background-color: var(--very-dark-violet);
@@ -336,6 +336,9 @@ footer {
     text-align: center;
     flex-direction: column;
     gap: 5rem;
+  }
+  .navbar.open {
+    left: 0;
   }
   a {
     font-size: 1.8rem;
