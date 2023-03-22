@@ -317,6 +317,10 @@ footer {
     justify-self: center;
   }
 
+  .menu,
+  .hamburger {
+    display: block;
+  }
   /* navbar */
   .navbar {
     z-index: 1001;
