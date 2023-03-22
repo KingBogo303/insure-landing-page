@@ -321,6 +321,12 @@ footer {
   .hamburger {
     display: block;
   }
+  .hide {
+    display: none !important;
+  }
+  .show {
+    display: block !important;
+  }
   /* navbar */
   .navbar {
     z-index: 1001;

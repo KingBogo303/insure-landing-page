@@ -1,11 +1,12 @@
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".menu");
 const navbar = document.querySelector(".navbar");
-const close = document.querySelector(".close");
+const closeBtn = document.querySelector(".close");
 
-menu.onclick = () => {
-  navbar.classList.toggle("open");
-  //   if(navbar.classList.contains("open"){
+console.log(close.style);
 
-  //   })
+hamburger.onclick = () => {
+  navbar.classList.add("open");
+  hamburger.classList.add("hide");
+  closeBtn.classList.add("show");
 };
