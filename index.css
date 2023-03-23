@@ -175,6 +175,7 @@ section {
 
 /* cta styles */
 .cta {
+  z-index: 1;
   position: relative;
   background-color: var(--Dark-Violet);
   padding: 60px 100px;
@@ -194,6 +195,7 @@ section {
 
 /* footer styles */
 footer {
+  z-index: 1;
   position: relative;
   padding: 50px 10%;
   background-color: var(--Very-Light-Gray);
@@ -254,6 +256,7 @@ footer {
     display: none;
   }
   .mobile {
+    z-index: -1;
     display: initial;
   }
 
@@ -356,5 +359,25 @@ footer {
     font-size: 1.8rem;
     color: var(--Very-Light-Gray);
     border-color: var(--Very-Light-Gray);
+  }
+
+  .mobile {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .topFooter {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footerLinks {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .links li {
+    margin-bottom: 2rem;
   }
 }
