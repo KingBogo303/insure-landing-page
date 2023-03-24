@@ -47,6 +47,7 @@ a {
   display: block;
 }
 .btn {
+  z-index: 1;
   border: 3px solid var(--very-dark-violet);
   padding: 10px 30px;
   background-color: transparent;
@@ -54,6 +55,12 @@ a {
   font-size: 14px;
   width: fit-content;
   color: var(--very-dark-violet);
+  transition: 0.35s;
+}
+.btn:hover {
+  color: var(--Very-Light-Gray) !important;
+  background-color: var(--very-dark-violet);
+  border-color: var(--very-dark-violet);
 }
 
 /* header styles */
@@ -123,6 +130,12 @@ section {
 .hero .btn,
 .cta .btn {
   color: var(--Very-Light-Gray);
+  border-color: var(--Very-Light-Gray);
+}
+.hero .btn:hover,
+.cta .btn:hover {
+  color: var(--very-dark-violet) !important;
+  background-color: var(--Very-Light-Gray);
   border-color: var(--Very-Light-Gray);
 }
 .hero-bg {
