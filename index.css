@@ -55,12 +55,14 @@ a {
   font-size: 14px;
   width: fit-content;
   color: var(--very-dark-violet);
-  transition: 0.35s;
+  transition: 0.35s ease-in-out;
+  transform-origin: left;
 }
 .btn:hover {
   color: var(--Very-Light-Gray) !important;
   background-color: var(--very-dark-violet);
   border-color: var(--very-dark-violet);
+  transform-origin: right;
 }
 
 /* header styles */
